@@ -56,7 +56,7 @@ print(f"تم بدأ تتبع الصفحة {url} ...")
 
 # التحقق الدوري من الصفحة
 while True:
-    time.sleep(60)  # التحقق كل 60 ثانية
+    time.sleep(4)  # التحقق كل 60 ثانية
 
     # جلب المحتوى الجديد للصفحة
     current_content = get_page_content(url)
