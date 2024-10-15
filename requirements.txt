@@ -1,3 +1,6 @@
 Flask
 requests
 beautifulsoup4
+BeautifulSoup
+hashlib
+unified_diff
