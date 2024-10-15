@@ -5,7 +5,7 @@ import time
 from difflib import unified_diff
 from flask import Flask, jsonify
 
-app = Flask(name)
+app = Flask(__name__)
 
 # إعدادات بوت تليجرام
 TELEGRAM_BOT_TOKEN = '7484302780:AAFoE53mu0b4XjbT-fFy-tj9_68gRDd-b_M'  # ضع توكن البوت هنا
